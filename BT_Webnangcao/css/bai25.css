@@ -1,0 +1,186 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.wapper{
+    width: 50%; 
+    box-shadow: 0 0 15px;
+    margin: 0px auto;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ebe5e5;
+    padding: 0 20px;
+}
+
+.header button{
+    font-size: 20px;
+    background-color: #cdcdcd;
+    border: 0px solid #ffffff;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    text-align: left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.header img{
+    padding-top: 20px;
+}
+#row-1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    background-color: #ebe5e5;
+    margin: 0;
+}
+
+#row-1{
+    padding-left: 15px;
+}
+
+#row-2{
+    padding-left: 15px;
+}
+#row-1 li{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+
+#row-1 li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+#row-1 li a:hover{
+    color: red;
+}
+
+#row-2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    background-color: #ebe5e5;
+    margin: 0;
+}
+
+#row-2   li{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+
+#row-2 li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+#row-2 li a:hover{
+    color: red;
+}
+
+.section{
+    background-color: #ffffff;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text a{
+    text-decoration: none;
+    color: #00BFFF;
+}
+
+.text a:hover{
+    color: red;
+}
+.text i{
+    color: #555;
+    font-size: 10px;
+}
+
+#text-1{
+    margin-left: 20px;
+}
+
+#text-2{
+    margin-right: 25px;
+}
+
+#earth{
+    font-size: 15px;
+    color: black;
+}
+
+#setting{
+    font-size: 15px;
+    border-radius: 3px;
+    color: black;
+    background-color: #ffffff;
+    padding: 5px 15px;
+    box-shadow: 0 0 3px;
+}
+
+#setting:hover{
+    background-color: #c1baba;
+}
+span{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+#item-1{
+    margin-left: 20px;
+}
+
+#item-1 b{
+    color: #00BFFF;
+}
+
+#item-2{
+    margin-left: 20px;
+}
+.grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 350px 350px;
+    justify-content: center;
+    align-items: center;
+}
+  
+.cell{
+    background-color: brown;  
+    color: #ffffff;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.cell a{
+    color: #ffffff;
+    text-decoration: none;
+}
+  
+.cell a i{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.cell:hover{
+    background-color: #c1baba;
+    opacity: 1;
+}
